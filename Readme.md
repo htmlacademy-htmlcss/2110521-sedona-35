@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Aleksei Bissenek](https://up.htmlacademy.ru/htmlcss/35/user/2110521).
-* Наставник: `Неизвестно`.
+* Наставник: `Семён Якушев` (https://htmlacademy.ru/profile/id1118791).
 
 ---
 
