@@ -573,6 +573,9 @@ body {
   background: #82B3D3;
   border-radius: 4px;
 }
+.pagination-item:last-of-type .pagination-link {
+  padding: 11px 18px;
+}
 
 .pagination-current {
   background: #F2F2F2;
