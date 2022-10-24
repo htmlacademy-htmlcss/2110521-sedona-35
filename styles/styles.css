@@ -188,8 +188,6 @@ body {
   background: rgba(131, 179, 211, 0.2);
 }
 
-
-
 .activities-list {
   display: flex;
   list-style: none;
@@ -511,7 +509,7 @@ body {
   color: #333333;
 }
 .product-card-price {
-  padding-left: 55px;
+  justify-self: end;
 }
 
 .product-card-button-brown {
