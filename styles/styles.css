@@ -146,62 +146,80 @@ body {
   padding-top: 25px;
   padding-bottom: 90px;
 }
+.advantages-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+}
 
 .advantages-item-title {
   font-size: 24px;
   line-height: 28px;
   text-align: center;
   text-transform: uppercase;
+  margin: 0;
   margin-bottom: 30px;
-  padding-top: 92px;
+
 }
 .advantages-description {
   text-align: center;
-  padding-bottom: 111px;
+  margin: 0;
 }
 
 .advantages-block {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   background-color: #82B3D3;
   color: #FFFFFF;
-}
-
-.advantages-wrapper {
-  display: flex;
+  max-width: 400px;
+  height: 384px;
 }
 
 .advantages-block-white {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 62px;
   background: rgba(131, 179, 211, 0.12);
+  max-width: 400px;
+  padding-top: 103px;
+  padding-bottom: 121px;
 }
 
 .advantages-block-blue {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 62px;
   background: rgba(131, 179, 211, 0.2);
+  max-width: 400px;
+  padding-top: 103px;
+  padding-bottom: 121px;
 }
 
 .activities-list {
   display: flex;
   list-style: none;
   align-items: center;
+  margin: 0;
+  padding: 0;
 }
 
 .activities-block {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  padding-top: 103px;
+  padding-bottom: 121px;
 }
 
 .activities-block-shadow {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  padding-top: 103px;
+  padding-bottom: 121px;
 }
 
 .activities-title {
@@ -209,13 +227,16 @@ body {
   line-height: 28px;
   text-align: center;
   text-transform: uppercase;
-  padding-top: 60px;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 30px;
 }
 
 .activities-description {
   text-align: center;
   color: #333333;
-  padding-bottom: 60px;
+  margin: 0;
+  padding: 0;
 }
 
 .activities-block {
