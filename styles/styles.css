@@ -51,10 +51,15 @@ body {
   margin: 0 auto;
 }
 
+.navigation-logo {
+  margin-right: 28px;
+  margin-left: 70px;
+}
+
 .navigation-list {
   margin: 0;
   padding: 0;
-  width: 650px;
+  width: 400px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -62,7 +67,7 @@ body {
 
 .navigation-link {
   display: block;
-  padding: 20px 16px;
+  margin: 22px 12px;
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
@@ -81,22 +86,19 @@ body {
   background-color: #756157;
   text-decoration: none;
   text-transform: uppercase;
-}
-
-.navigation-logo {
-  padding-right: 28px;
-  padding-left: 70px;
+  margin-left: 20px;
 }
 
 .navigation-user {
   max-width: 268px;
   margin-left: auto;
+  margin-right: 70px;
 }
+
 .navigation-user .navigation-link {
   min-width: 16px;
   min-height: 22px;
 }
-
 
 .page-container {
   width: 1200px;
@@ -131,8 +133,8 @@ body {
   text-align: center;
   display: block;
   margin: 0 auto;
-  width: 800px;
-  padding-top: 69px;
+  max-width: 750px;
+  margin-top: 69px;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -146,6 +148,7 @@ body {
   padding-top: 25px;
   padding-bottom: 90px;
 }
+
 .advantages-list {
   display: flex;
   flex-wrap: wrap;
@@ -162,6 +165,7 @@ body {
   margin-bottom: 30px;
 
 }
+
 .advantages-description {
   text-align: center;
   margin: 0;
@@ -331,7 +335,7 @@ body {
   display: flex;
   width: 1200px;
   margin: 0 auto;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   margin-top: 45px;
   margin-bottom: 35px;
@@ -342,21 +346,23 @@ body {
 }
 
 .footer-social {
-  padding-left: 70px;
   max-width: 150px;
 }
+
 .footer-social-list {
   display: flex;
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
 }
+
 .footer-social-item {
-  width: 24px;
-  height: 14px;
-  margin-right: 14px;
-  margin-bottom: 14px;
+  box-sizing: border-box;
+  width: 48px;
+  height: 40px;
+  padding: 12px;
 }
+
 .footer-social-item:nth-child(3n) {
   margin-right: 0;
 }
@@ -381,15 +387,16 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #000000;
+  min-height: 400px;
 }
 
 .inner-header-title {
   font-size: 60px;
   line-height: 78px;
   color: #FFFFFF;
-  margin-top: 0;
+  margin: 0;
   padding-top: 35px;
-  padding-left: 70px;
+  margin-left: 70px;
   margin-bottom: 8px;
 }
 
@@ -398,7 +405,7 @@ body {
   display: flex;
   margin: 0;
   padding: 0;
-  padding-left: 70px;
+  margin-left: 70px;
   margin-bottom: 40px;
 }
 
@@ -409,6 +416,7 @@ body {
   line-height: 21px;
   padding-right: 10px;
 }
+
 .breadcrumbs:last-child {
   padding-right: 0;
 }
@@ -422,19 +430,23 @@ body {
 
 .catolog-filter-wrapper {
   display: flex;
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-bottom: 70px;
+  margin-top: 40px;
 }
 
 .catolog-filter-buttons {
   margin-left: auto;
   display: flex;
   flex-direction: column;
-  margin-right: 70px;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .catalog-filter-group {
-  margin-left: 70px;
-  margin-bottom: 70px;
+  border: none;
+  margin: 0;
+  margin-right: 70px;
 }
 
 .control {
@@ -454,7 +466,6 @@ body {
   background: #82B3D3;
   border-radius: 4px;
   border: none;
-  margin-bottom: 48px;
 }
 
 .catalog-filter-button {
@@ -467,7 +478,13 @@ body {
   text-transform: uppercase;
   border: none;
   background: inherit;
-  margin-bottom: 70px;
+
+}
+
+.hotel-result-wrapper {
+  display: flex;
+  align-items: center;
+  margin: 50px 70px 40px 70px;
 }
 
 .select-hotel-results {
@@ -476,27 +493,25 @@ body {
   line-height: 36px;
   margin: 0;
   padding: 0;
-  margin-left: 70px;
-  margin-right: 200px;
 }
 
-.hotel-result-wrapper {
-  display: flex;
-  align-items: center;
-  margin-top: 55px;
-  margin-bottom: 45px;
+.select-control {
+  margin-left: auto;
+  margin-right: 70px;
 }
+
 .hotel-result-wrapper .button {
   width: 56px;
   height: 44px;
 }
 
 .product-list {
-  margin: 0;
+  margin: 0 70px;
   padding: 0;
   display: grid;
   grid-template-columns: 340px 340px 340px;
   gap: 20px;
+
 }
 
 .product-card {
@@ -532,6 +547,7 @@ body {
 .product-card-price {
   color: #333333;
 }
+
 .product-card-price {
   justify-self: end;
 }
@@ -564,12 +580,14 @@ body {
   color: #000000;
   text-decoration: none;
 }
+
 .product-card-star-list {
   display: flex;
   padding: 0;
   margin: 0;
   gap: 6px;
 }
+
 .product-card-rating {
   font-size: 16px;
   line-height: 20px;
@@ -579,6 +597,7 @@ body {
   background: #F2F2F2;
   border-radius: 4px;
 }
+
 .pagination {
   display: flex;
   margin-top: 40px;
@@ -586,6 +605,7 @@ body {
   margin-left: 70px;
   padding: 0;
 }
+
 .pagination-item:not(:last-child) {
   margin-right: 8px;
 }
@@ -604,6 +624,7 @@ body {
   background: #82B3D3;
   border-radius: 4px;
 }
+
 .pagination-item:last-of-type .pagination-link {
   padding: 11px 18px;
 }
