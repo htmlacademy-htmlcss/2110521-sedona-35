@@ -334,6 +334,10 @@ body {
   font-size: 20px;
   line-height: 36px;
 }
+.mail-field {
+  width: 452px;
+  height: 40px;
+}
 
 .page-footer-container {
   display: flex;
