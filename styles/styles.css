@@ -17,6 +17,8 @@
 ul,
 li {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -87,6 +89,8 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   margin-left: 20px;
+  padding: 8px 30px;
+  border-radius: 4px;
 }
 
 .navigation-user {
@@ -257,6 +261,7 @@ body {
   flex-direction: column;
   max-width: 592px;
   margin: 0 auto;
+  align-items: center;
   padding-top: 96px;
   padding-bottom: 104px;
 }
@@ -285,8 +290,8 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   display: block;
-  width: 376px;
-  margin: 0 auto;
+  padding: 5px 20px;
+  border-radius: 5px;
 }
 
 .mail {
@@ -297,6 +302,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 96px;
+  padding-bottom: 104px;
 }
 
 .mail-title {
@@ -305,11 +312,7 @@ body {
   text-align: center;
   color: #FFFFFF;
   text-transform: uppercase;
-  padding-top: 96px;
-}
-
-.mail-form {
-  padding-bottom: 104px;
+  margin: 0;
 }
 
 .mail-text {
@@ -317,7 +320,8 @@ body {
   font-size: 22px;
   line-height: 26px;
   text-align: center;
-  padding-bottom: 54px;
+  margin-top: 20px;
+  margin-bottom: 54px;
 }
 
 .mail-button {
@@ -329,6 +333,10 @@ body {
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
+}
+.mail-field {
+  width: 452px;
+  height: 40px;
 }
 
 .page-footer-container {
@@ -385,9 +393,10 @@ body {
   background-image: url(../img/catalog-header-background.jpg);
   background-size: 100% auto;
   background-repeat: no-repeat;
-  background-size: cover;
   background-color: #000000;
-  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  padding: 35px 70px 70px 70px;
 }
 
 .inner-header-title {
@@ -395,8 +404,7 @@ body {
   line-height: 78px;
   color: #FFFFFF;
   margin: 0;
-  padding-top: 35px;
-  margin-left: 70px;
+  padding: 0;
   margin-bottom: 8px;
 }
 
@@ -405,7 +413,6 @@ body {
   display: flex;
   margin: 0;
   padding: 0;
-  margin-left: 70px;
   margin-bottom: 40px;
 }
 
@@ -426,14 +433,11 @@ body {
   line-height: 24px;
   color: #FFFFFF;
   font-weight: 700;
+  margin-bottom: 30px;
 }
 
 .catolog-filter-wrapper {
   display: flex;
-  margin-left: 70px;
-  margin-right: 70px;
-  margin-bottom: 70px;
-  margin-top: 40px;
 }
 
 .catolog-filter-buttons {
@@ -447,6 +451,12 @@ body {
   border: none;
   margin: 0;
   margin-right: 70px;
+}
+.catalog-filter-item {
+  margin-bottom: 5px;
+}
+.catalog-filter-item:last-child {
+  margin-bottom: 0;
 }
 
 .control {
